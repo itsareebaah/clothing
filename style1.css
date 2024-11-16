@@ -1,0 +1,266 @@
+*{
+    margin:0;
+    padding:0;
+}
+.main{
+   
+    width:100%;
+    height:100%;
+    background:  linear-gradient(to top, rgba(0,0,0,0.5)50%, rgba(0,0,0,0.5)50%),url(pics.jpg);
+    
+    
+    background-position: center;
+    background-size: cover;
+    height: 120vh;
+}
+.navbar{
+    width:1200px;
+    height:75px;
+    margin:auto
+}
+.icon{
+    width:200px;
+    float:left;
+    height:70px;
+}
+.logo{
+    color:orange;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    padding-top: 10px;
+}
+.menu{
+    width:400px;
+    float:left;
+    height: 70px;
+    
+}
+ul{
+
+    float:left;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+ul li{
+   
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    color:orange;
+}
+.search{
+    margin-top: 10px;
+    width:330px;
+    float:left;
+    margin-left: 260px;
+   color: orange;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 60px;
+    background: transparent;
+    border: 1px solid white;
+    margin-top: 13px;
+    color: orange;
+    border-right: none;
+    float: left;
+    padding: 10px;
+     border-bottom-left-radius: 5px; 
+     border-top-left-radius: 5px;
+
+}
+.btn{
+    width: 100px;
+    height: 23px;
+
+    /* background: orange; */
+    border: 2px solid orange;
+    margin-top: 13px;
+    font-weight: bold;
+    color: white;
+    font-size: 15px;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: orange;
+
+}
+.btn:focus{
+    outline: none;
+    color: orange;
+}
+.srch:focus{
+    outline: none;
+}
+.content{
+    width: 1200px;
+    height:auto;
+    margin: auto;
+    color: white;
+    position: relative;
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+.content h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    padding-left: 40px;
+    margin-top: 4%;
+    letter-spacing: 2px;
+
+
+}
+.content h4{
+    font-style: italic;
+    margin-right: 20px;
+    margin-left: 40px;
+    color: bisque;
+    
+    padding-top: -4px;
+}
+.content p{
+    margin-top: 17px;
+    margin-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.content .cn{
+    width: 160px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 80px;
+    background: orange;
+    border-color:orange ;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .4s ease;
+}
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+
+}
+.cn:hover{
+    background-color: white;
+
+}
+.form{
+    width:250px;
+    height: 410px;
+    background: black;
+    /* background: linear-gradient(to top, rgba(0,0,0,0.8)50% rgba(0,0,0,0.8)50%); */
+    position: absolute;
+    top:-35px;
+    left: 830px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h3{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+    background-color: orange;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 10px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+.form input:focus{
+    outline:none;
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+
+}
+
+.btnn{
+    width:240px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-top: 30px;
+    font-size: 20px;
+    border-radius: 18px;
+    color: white;
+    transition: .04s ease;
+}
+.btnn:hover{
+    background: white;
+    color: orange;
+}
+.btnn a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.form .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form .link{
+    text-decoration: none;
+    color: orange;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: orange;
+}
+.icon a{
+    text-decoration: none;
+    color: white;
+}
+
+.icon ion-icon{
+    color: white;
+    font-size: 20px;
+    padding-left: 6px;
+
+    padding-right: 10px;;
+    
+    padding-top: 5px;
+    transition: 0.3s ease;
+}
+
+.icon ion-icon:hover{
+    color:orange;
+}
